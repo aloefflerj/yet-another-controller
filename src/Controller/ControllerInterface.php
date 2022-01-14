@@ -2,6 +2,9 @@
 
 namespace Aloefflerj\YetAnotherController\Controller;
 
+/**
+ * @property $name 
+ */
 interface ControllerInterface
 {
     function get(array $params);
